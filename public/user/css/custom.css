@@ -1,0 +1,88 @@
+/* General styles for the container */
+.nav-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    margin: 0;
+}
+
+/* Individual tab styles */
+.nav-tabs li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Style for icons and labels */
+.nav-tabs li i {
+    display: block;
+    /* margin-bottom: 5px; */
+    margin-right: 5px;
+    font-size: 18px;
+    color: #888;
+}
+
+.nav-tabs li span {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Active tab styles */
+.nav-tabs li.active {
+    background-color: #e91e63;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nav-tabs li.active i {
+    color: #fff;
+}
+
+.nav-tabs li.active span {
+    color: #fff;
+}
+.m-top-bottom{
+    margin: 20px 0px;
+}
+.uc-navbar-center:not(:only-child) {
+    transform: translate(-90%, -50%) !important;
+}
+.dropdown-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    position: fixed !important;
+    /* top: 110.9815px !important; */
+    left: 774.264px !important;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content ul li a {
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-content ul li a:hover {
+    background: #f0f0f0;
+}
+
+.uc-footer{
+    bottom: -25px;
+}
